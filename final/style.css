@@ -46,8 +46,9 @@ nav ul li a{
 }
 .row{
     display: flex;
-    height: 88%;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .col{
     flex-basis: 50%;
