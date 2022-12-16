@@ -55,7 +55,7 @@ nav ul li a{
 }
 h1{
     color: #fff;
-    font-size: 1oopx;
+    font-size: 115px;
 }
 p{
     color: #fff;
@@ -87,16 +87,16 @@ button{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(images/thomas-ten-VRY-odqNmPY-unsplash\ \(1\).jpg);
+    background-image: url(images/kolsaykaindy1.jpg);
 }
 .card2{
-    background-image: url(images/yelena-vakker-IwvQzyJ_cm8-unsplash\ \(1\).jpg);
+    background-image: url(images/charyn.jpg);
 }
 .card3{
-    background-image: url(images/photo_337219\ \(1\).jpeg);
+    background-image: url(images/karakol.jpg);
 }
 .card4{
-    background-image: url(images/johannes-ludwig-8dejZGw3Hec-unsplash\ \(1\).jpg);
+    background-image: url(images/plato.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
