@@ -1,5 +1,6 @@
 header .carta{
     position: relative;
+    font-family: 'Montserrat', sans-serif;
     display: block;
     background: #c4c4e1;
     border-radius: 10px;
@@ -18,10 +19,12 @@ header .carta .carta_left{
     header .carta .carta_left h1{
     text-align: center;
     font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 header .carta .carta_left p{
     text-align: center;
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
 .map{
@@ -45,4 +48,22 @@ header .carta .carta_left p{
     background: #b9b9be;
     width:80%;
     height: 20vh;
+    
+}
+.contact .moe{
+    width: 40%;
+    height:100%;
+    text-align: center;
+}
+.contact .moe h3{
+    font-size: 1.17em;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .moe p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .moe p a{
+    text-decoration: none;
+    color:#121213;
 }
