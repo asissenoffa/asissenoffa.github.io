@@ -13,19 +13,30 @@
 }
 
 
-@font-face {
-    font-family: Lato;
-    src: url("font/Lato-regular.ttf");
-}
 
-@font-face {
-    font-family: LatoBold;
-    src: url("font/Lato-Bold.ttf");
-}
 
 html {
+    font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
-}
+    scroll-padding-top: 5rem;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #32997e;
+  }
+  
+  section {
+    padding: 5rem 9%;
+  }
 
 .header {
     background-color: #32997e;
