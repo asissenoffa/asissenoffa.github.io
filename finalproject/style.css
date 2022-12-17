@@ -359,4 +359,24 @@ html {
     padding: 1rem 0;
     line-height: 2;
   }
+  .packages {
+    background: #eee;
+  }
+  
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .packages .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #32997e;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+  }
 
