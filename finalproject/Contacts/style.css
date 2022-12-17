@@ -1,0 +1,48 @@
+header .carta{
+    position: relative;
+    display: block;
+    background: #c4c4e1;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 20px 10px 10px rgb(159, 152, 152);
+    margin-bottom:100px;
+}
+header .carta .carta_left{
+    width: auto;
+    height: 80%;
+    background: #dadae8;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+    header .carta .carta_left h1{
+    text-align: center;
+    font-size: 40px;
+}
+header .carta .carta_left p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.map{
+    position: relative;
+    text-align: center;
+}
+.map iframe{
+    width: 700px;
+    height: 400px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact{
+    position:fixed;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    bottom:0;
+    background: #b9b9be;
+    width:80%;
+    height: 20vh;
+}
