@@ -1,0 +1,9 @@
+header .carta .carta_left h1{
+    text-align: center;
+    font-size: 40px;
+}
+header .carta .carta_left p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
