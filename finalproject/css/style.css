@@ -7,6 +7,14 @@
 }.navbar .container{
     justify-content: space-between;
 }
+.container .video-container video{
+    position: absolute;
+    top:0; left:0;
+    z-index: -1;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
 .site-brand{
     color: white;
     font-size: 2.4rem;
@@ -16,9 +24,7 @@
 }
 header{
     min-height: 100vh;
-    padding-top: 7rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jjoin.jpg) center/cover
-    no-repeat;
+    padding-top: 2rem;    
     flex-direction: column;
     color:#fff;
     text-align: center;
@@ -29,7 +35,7 @@ header{
     animation: bounce-in-top 1.1s both;
 }
 .header-title p{
-    margin: 1.8rem auto;
+    margin: 1rem auto;
     max-width: 700px;
     font-weight: 500;
     font-size: 1.3rem;
@@ -70,11 +76,6 @@ header{
         animation-timing-function: ease-out;
     }
 }
-.header-form{
-    background: rgba(0, 0, 0, 0.3);
-    padding: 3rem;
-    border-radius: 0.2rem;
-}
 .header-form h3{
     font-size: 1.2rem;
 }
@@ -90,15 +91,4 @@ header{
 }
 .header-form input:not([type = "submit"])::placeholder{
     color:#fff;
-}
-.navbar-cng{
-    background-color: #fff;
-    box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
-    transition: all 0.3s ease-in-out;
-}
-.navber-cng .site-brand{
-    color: #f7f7f7;
-}
-.navbar-cng .site-brand span{
-    color: #1ec6b6;
 }
