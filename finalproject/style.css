@@ -40,15 +40,6 @@ html {
 
 
 
-.header {
-    background-color: #32997e;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 56;
-}
 .btn {
     margin-top: 1rem;
     display: inline-block;
