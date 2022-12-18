@@ -1,3 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../Contacts/map.jpg);
+    margin:0;
+}
+header{
+    width:80%;
+    height:95vh;
+    margin:auto;
+}
 header .carta{
     position: relative;
     font-family: 'Montserrat', sans-serif;
