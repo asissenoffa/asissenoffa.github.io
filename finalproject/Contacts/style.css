@@ -7,7 +7,6 @@ header{
     width:80%;
     height:95vh;
     margin:auto;
-
 }
 header .carta{
     position: relative;
@@ -84,7 +83,6 @@ header .carta .carta_left p{
 .contact .moe h3:hover::before{
     transform: skew(45deg) translateX(-150px);
 }
-
 .contact .moe p{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
