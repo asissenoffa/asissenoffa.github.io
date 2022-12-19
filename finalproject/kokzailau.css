@@ -13,7 +13,7 @@
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    min-height: 1370px;
+    min-height: 1000px;
 }
 .logo{
     border-radius: 50%;
@@ -58,6 +58,8 @@ nav ul li a:hover{
     margin-bottom: 50px;
 }
 .col{
+    padding-left: 90px;
+    padding-top: 50px;
     flex-basis: 50%;
     color: #fff;
 }

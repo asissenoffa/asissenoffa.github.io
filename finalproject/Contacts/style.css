@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background: url(../Contacts/cont.jpg) center/cover;
+    /* background: url(../Contacts/cont.jpg) center/cover; */
     margin:0;
 }
 header{
@@ -18,7 +18,7 @@ header .carta{
     align-items: center;
     justify-content: space-between;
     margin-bottom:100px;  
-    background: url(../Contacts/center.jpg) center/cover;
+    background: url(../Contacts/cont.jpg) center/cover;
 }
 header .carta .carta_left{
     width: auto;
@@ -74,6 +74,17 @@ header .carta .carta_left p{
     font-size: 1.17em;
     font-family: 'Poppins', sans-serif;
 }
+.contact .moe h3 a{
+    text-decoration: none;
+    color:#121212;
+}
+.contact .moe h3:hover{
+    transform: translateY(-20px);
+}
+.contact .moe h3:hover::before{
+    transform: skew(45deg) translateX(-150px);
+}
+
 .contact .moe p{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
