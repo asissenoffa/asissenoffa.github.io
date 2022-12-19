@@ -17,15 +17,7 @@ header .carta{
     align-items: center;
     justify-content: space-between;
     margin-bottom:100px;  
-    background: url(../Contacts/cont.jpg) center/cover;
-}
-header .carta .carta_left{
-    width: auto;
-    height: 100%;
-    background: #dadae8;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    background: url(../Contacts/map.jpg) center/cover;
+    background: url(../mainpagetwo.jpg) center/cover;
 }
     header .carta .carta_left h1{
     text-align: center;
