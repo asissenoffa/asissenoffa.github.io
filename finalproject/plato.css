@@ -47,6 +47,10 @@ nav ul li a{
     color: #fff;
     font-size: 13px;
 }
+nav ul li a:hover{
+    transition: all .4s;
+    color: #FFDEAD;
+}
 .row{
     display: flex;
     align-items: center;
