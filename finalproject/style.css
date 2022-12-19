@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -11,9 +12,6 @@
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-
-
-
 
 html {
     font-size: 62.5%;
@@ -49,7 +47,6 @@ html {
     padding: 1rem 3rem;
     border-radius: 30px;
   }
-  
   .btn:hover {
     background: #32997e;
     color: #fff;
@@ -79,12 +76,8 @@ html {
             align-items: center;
   }
   
-  /* .header.active {
-     background: #fff;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  }
-   */
+   
+   
   .header .logo {
     margin-right: auto;
     font-size: 2.5rem;
@@ -162,6 +155,7 @@ html {
         -ms-flex-pack: end;
             justify-content: flex-end;
     padding: 2rem 9%;
+    padding-right: 300px;
   }
   
   .home .box.second {
@@ -171,22 +165,21 @@ html {
   }
   
   .home .box .content {
-    width: 50rem;
+    /* width: 50rem; */
+    
   }
   .home .box .content span {
     font-size: 4rem;
     color: white;
-    /* font-family: 'Caramel', cursive; */
-    font-family: 'Dancing Script', cursive;
   }
   
   .home .box .content h3 {
-    font-size: 6rem;
+    font-size: 7rem;
     color: white;
     padding-top: .5rem;
     text-transform: uppercase;
-    /* font-family: 'Caramel', cursive; */
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Mochiy Pop One', sans-serif; 
+    font-weight: normal;
   }
   
   
@@ -258,6 +251,7 @@ html {
             /* box-shadow: 2rem 2rem 0 rgba(0, 0, 0, 0.1); */
             box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.436);
             border-radius: 25px;
+            volume: 100px;
 
   }
   
@@ -377,10 +371,45 @@ html {
     -webkit-filter: invert(1);
             filter: invert(1);
   }
-   .reviews{
-    background: url(kokzh.jpg);
-    justify-content: space-between;
+
+  .services .box-container .box:hover p {
+    color: #fff;
   }
+  
+  .services .box-container .box:hover .btn {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .services .box-container .box:hover .btn:hover {
+    background: #fff;
+    color: #32997e;
+  }
+  
+  .services .box-container .box img {
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services .box-container .box h3 {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .services .box-container .box p {
+    font-size: 1.5rem;
+    color: #32997e;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  .reviews{
+    background: url(home-bg-2.jpg);
+    justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+    min-width: 1320px;
+    min-height: 1320px; 
+  } 
   .reviews  .text {
     padding: 2rem;
     font-size: 1.5rem;
@@ -425,68 +454,21 @@ html {
   
   .reviews  .user h3 {
     font-size: 2rem;
-    color: #32997e;
+    color: black;
   }
   
   .reviews  .user span {
     color: #32997e;
     font-size: 1.5rem;
   }
-  .blogs .slide {
-    text-align: center;
-    padding: 2rem;
-  }
   
-  .blogs .slide img {
-    height: 25rem;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: .5rem;
-  }
-  .blogs .slide .icons {
-    background: #32997e;
-    border-radius: .5rem;
-    padding: 1rem;
-    position: relative;
-    top: -2rem;
-    display: inline-block;
-  }
-  
-  .blogs .slide .icons a {
-    font-size: 1.4rem;
-    color: #fff;
-    margin: 0 1rem;
-  }
-  
-  .blogs .slide .icons a:hover {
-    color: #219150;
-  }
-  
-  .blogs .slide .icons a i {
-    padding-right: .5rem;
-    color: #219150;
-  }
-  
-  .blogs .slide h3 {
-    font-size: 2rem;
-    color: #32997e;
-  }
-  
-  .blogs .slide p {
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    line-height: 2;
-    color: #32997e;
-  }
-
   .guides .slide {
     text-align: center;
     padding: 2rem;
   }
   
   .guides .slide img {
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -527,6 +509,114 @@ html {
     padding: 1rem 0;
     line-height: 2;
     color: #32997e;
+  }
+  .newsletter {
+    background: #eee;
+  }
+  
+  .newsletter .content {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .newsletter .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #32997e;
+  }
+  
+  .newsletter .content form {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 5rem;
+    border: 0.2rem solid #32997e;
+    padding: .7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .newsletter .content form .email {
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: #32997e;
+    padding: 0 1.3rem;
+  }
+  
+  .newsletter .content form .btn {
+    margin-top: 0;
+    border-radius: 5rem;
+    background: #32997e;
+    color: #fff;
+  }
+  
+  .newsletter .content form .btn:hover {
+    background: none;
+    color: #32997e;
+  }
+  .clients .silde {
+    text-align: center;
+  }
+  
+  .clients .silde img {
+    height: 12rem;
+  }
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    color: #fff;
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box a i {
+    color: #32997e;
+    padding-right: .5rem;
+  }
+  
+  .footer .box-container .box a:hover {
+    color: #219150;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .footer .credit span {
+    color: #219150;
   }
 
   @media (max-width: 1200px) {
