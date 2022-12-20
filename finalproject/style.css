@@ -97,25 +97,16 @@ html {
   }
   
   .header .navbar a:hover {
-    color: #219150;
+    color: #32997e;
   }
   
   .header .navbar #nav-close {
     font-size: 5rem;
     cursor: pointer;
-    /* color: #10221b; */
     color: #32997e; 
     display: none;
   }
   
-   .white {
-      color: #2F4538;
-      text-decoration-color: white;
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
-      
-  
-  } 
    
   .white:hover {
       color: #C7FCEC;
@@ -124,11 +115,6 @@ html {
       border-bottom-width: 3px;
       width: fit-content;
       transition: 2s ;
-  }
-  
-  .header .icons a:hover,
-  .header .icons div:hover {
-    color: #32997e;
   }
   
   .header #menu-btn {
@@ -182,11 +168,6 @@ html {
   }
   
   
-  .swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 3rem;
-  color: #32997e;
-}
   
   .category .box-container {
     display: -ms-grid;
@@ -246,8 +227,7 @@ html {
     width: 80%;
     height: 80%;
 
-    /* -webkit-box-shadow: 2rem 2rem 0 rgba(0, 0, 0, 0.1); */
-            /* box-shadow: 2rem 2rem 0 rgba(0, 0, 0, 0.1); */
+    -webkit-box-shadow: 2rem 2rem 0 rgba(0, 0, 0, 0.1); 
             box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.436);
             border-radius: 25px;
             volume: 100px;
@@ -697,10 +677,7 @@ html {
       top: 1rem;
       right: 2rem;
     }
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-      display: none;
-    }
+  
   }
   
   @media (max-width: 450px) {
